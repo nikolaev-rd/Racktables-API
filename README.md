@@ -5,7 +5,7 @@
 - [Racktables](https://github.com/RackTables/racktables) >= 0.20.14
 - [PHP](https://github.com/php) >= 7.0
 - [Apache](http://httpd.apache.org/)
-- [Node.js](https://nodejs.org/) + [Swagger UI](https://github.com/swagger-api/swagger-ui).
+- [Node.js](https://nodejs.org/) + [Swagger UI](https://github.com/swagger-api/swagger-ui)
   
 
 ## Installation
@@ -16,7 +16,7 @@ git clone https://github.com/nikolaev-rd/Racktables-API.git /var/www/html/rackta
 ```
   
 **2. Modify/verify Apache config**, where [Racktables](https://github.com/RackTables/racktables) was specified:
-- Check that Rewrite Engine is turned on:
+- Check that [Rewrite Engine](https://httpd.apache.org/docs/current/mod/mod_rewrite.html#rewriteengine) is turned on:
 ```apache
 RewriteEngine on
 ```
