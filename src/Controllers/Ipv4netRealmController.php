@@ -13,7 +13,7 @@ final class Ipv4netRealmController extends GenericRealmController
 {
 	/**
 	 * @SWG\Property(ref="#/definitions/realm")
-     */
+         */
 	protected $realm = 'ipv4net';
 	
 	
