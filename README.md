@@ -1,4 +1,5 @@
 # Racktables API
+API implementation for [Racktables](https://github.com/RackTables/racktables) with read-only methods, written on PHP.
 
 ## Requirements
 
